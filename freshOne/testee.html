@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome - Jonesxxl.eu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body class="w3-black">
+
+	<!-- Icon Bar (Sidebar - bigger Screens only) -->
+	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+		<!-- Avatar image in top left corner -->
+		<img src="./w3images/spot.jpg" style="width: 100%"> <a href="#"
+			class="w3-bar-item w3-button w3-padding-large w3-black"> <i
+			class="fa fa-home w3-xxlarge"></i>
+			<p>HOME</p>
+		</a> <a href="#about"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-user w3-xxlarge"></i>
+			<p>ÜBER MICH</p>
+		</a> <a href="#photos"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-eye w3-xxlarge"></i>
+			<p>FOTOS</p>
+		</a> <a href="#social"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-th-large w3-xxlarge"></i>
+			<p>SOCIAL</p>
+		</a> <a href="#sport"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-strikethrough w3-xxlarge"></i>
+			<p>SPORT</p>
+		</a> <a href="#contact"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-envelope w3-xxlarge"></i>
+			<p>KONTAKT</p>
+		</a>
+	</nav>
+
+	<!-- Navbar on small screens only -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+		<div
+			class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a href="#" class="w3-bar-item w3-button"
+				style="width: 20% !important">HOME</a> <a href="#about"
+				class="w3-bar-item w3-button" style="width: 20% !important">ABOUT</a>
+			<a href="#photos" class="w3-bar-item w3-button"
+				style="width: 20% !important">FOTOS</a> <a href="#social"
+				class="w3-bar-item w3-button" style="width: 20% !important">SOCIAL</a>
+
+			<a href="#sport" class="w3-bar-item w3-button"
+				style="width: 20% !important">SPORT</a>
+
+			<!-- <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a> -->
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="w3-padding-large" id="main">
+		<!-- Header/Home -->
+		<header class="w3-container w3-padding-32 w3-center w3-black"
+			id="home">
+			<h1 class="w3-jumbo">
+				<span class="w3-hide-small">WHA</span> GWAN.
+			</h1>
+			<p>I'm Jonesxxl Baller and Stoner...</p>
+			<img src="./w3images/highway.jpg" alt="boy" class="w3-image"
+				width="992" height="1108">
+		</header>
+
+		<!-- About Section -->
+		<div class="w3-content w3-justify w3-text-white w3-padding-64"
+			id="about">
+			<h2 class="w3-text-light-grey w3-tooltip">
+				Über mich <span class="w3-text">(<em>Nicht vergessen zu
+						lesen!</em>)
+				</span>
+
+			</h2>
+			<hr style="width: 200px" class="w3-opacity">
+			<p>Was geht mein <b>Freund</b>? Ich freue mich, dass du deine Zeit
+				investierst (vielleicht auch verschwendest) um meine Seite
+				anzusehen! - Das Ziel dieser Seite ist es, gleichgesinnten eine
+				Seite zu bieten auf der sie sich wohl fühlen. Dazu sollen alle
+				wichtigen Infos aus verschiedensten Kategorien an einem Ort
+				zusammengetragen werden.</p>
+
+
+
+
+
+
+			<h3 class="w3-padding-16 w3-text-light-grey">Kleine Fake
+				Statistik</h3>
+			<p class="w3-wide">Basketball</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height: 28px; width: 75%"></div>
+			</div>
+			<p class="w3-wide">Web Design</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height: 28px; width: 15%"></div>
+			</div>
+			<p class="w3-wide">Spring Tool</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height: 28px; width: 70%"></div>
+			</div>
+			<p class="w3-wide">NBA 2k20</p>
+			<div class="w3-white">
+				<div class="w3-dark-grey" style="height: 28px; width: 100%"></div>
+			</div>
+			<br>
+			<!-- Zitat Section -->
+			<blockquote class="w3-panel w3-leftbar w3-light-grey">
+				<p class="w3-large">
+					<i>"I've missed more than 9000 shots in my career. I've lost
+						almost 300 games. 26 times, I've been trusted to take the game
+						winning shot and missed. I've failed over and over and over again
+						in my life. And that is why I succeed."</i>
+				</p>
+				<p>-Micheal Jordan</p>
+			</blockquote>
+
+
+
+			<!-- Spielplan Button -->
+			<script>
+				function showButton(id) {
+					var x = document.getElementById(id);
+					if (x.className.indexOf("w3-show") == -1) {
+						x.className += " w3-show";
+					} else {
+						x.className = x.className.replace(" w3-show", "");
+					}
+				}
+			</script>
+
+
+			<div class="w3-container w3-center"></div>
+			<h3 class="w3-padding-24 w3-text-light-grey">Lust auf
+				Basketball?</h3>
+
+			<button onclick="showButton('Spielplan')"
+				class="w3-btn w3-block w3-red w3-hover-black">Mein
+				Spielplan</button>
+
+			<div id="Spielplan" class="w3-hide w3-center">
+				<img alt="Spielplan" src="./w3images/spielplan.jpg">
+			</div>
+
+
+		</div>
+
+		<!-- Portfolio Section -->
+		<div class="w3-padding-64 w3-content" id="photos">
+			<h2 class="w3-text-light-grey">Fotos</h2>
+			<hr style="width: 100px" class="w3-opacity">
+
+			<!-- Grid for photos -->
+			<div class="w3-row-padding" style="margin: 0 -16px">
+				<div class="w3-half">
+					<img class="w3-animate-fading" src="./w3images/land.jpg"
+						style="width: 100%"> <img src="./w3images/volcano.jpg"
+						style="width: 100%"> <img class="w3-animate-fading"
+						src="./w3images/highway.jpg" style="width: 100%"> <img
+						src="./w3images/gruen.jpg" style="width: 100%">
+				</div>
+
+				<div class="w3-half">
+					<img src="./w3images/spot.jpg" style="width: 100%"> <img
+						src="./w3images/IMG_0135.jpg" style="width: 100%"
+						class="w3-hover-sepia"> <img src="./w3images/land.jpg"
+						style="width: 100%">
+				</div>
+				<!-- End photo grid -->
+			</div>
+			<!-- End Portfolio Section -->
+		</div>
+
+
+		<div class="w3-padding-64 w3-content" id="sport">
+			<h2 class="w3-text-light-grey">Sport</h2>
+			<hr style="width: 100px" class="w3-opacity">
+			<p>Die NBA ist zurück und ich denke nicht nur mich haben diese
+				ganzen OFFSeason Trades brandheiß auf die neue Saison gemacht. Fast
+				jedes Jahr schafft es die NBA einen heiß auf den Saisonstart zu
+				machen, aber dieses Jahr haben sie wieder alles getoppt. ""All-Star
+				Duos everywhere" sag ich nur dazu. Und dazu das Battle of LA,
+				unglaublich.</p>
+			<iframe width="560" height="315"
+				src="https://www.youtube.com/embed/TJ7JNy0HNkA" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+		<div class="w3-padding-64 w3-content w3-text-white" id="social">
+			<h2 class="w3-text-light-grey">Social</h2>
+			<hr style="width: 100px" class="w3-opacity">
+			<h3 class="w3-text-light-grey">In diesem Bereich werde ich
+				einige Links von Hilfsprogrammen aus aller Welt hinterlegen.</h3>
+			<p>Im laufe der Zeit werden hoffentlich immer mehr Links dazu
+				kommen. Falls Ihr weitere Hilfsprogramme kennt, könnt
+				ihr mir diese gerne zusenden. Verstärkt möchte ich aber kleinere bzw.
+				unbekanntere Programme unterstützen.</p>
+
+
+
+			<button onclick="document.getElementById('gh').style.display='block'"
+				class="w3-button w3-red w3-hover-black">Ghanapeoplefoundation</button>
+
+			<!-- The Modal Ghana -->
+			<div id="gh" class="w3-modal" >
+				<div class="w3-modal-content w3-text-black">
+					<div class="w3-container">
+						<span onclick="document.getElementById('gh').style.display='none'"
+							class="w3-button w3-display-topright">&times;</span>
+						<h2>Ghanapeoplefoundation</h2>
+						<p>Dieses Hilfsprogramm unterstützt Kinder in Accra (Ghana)
+							einen Schulplatz zu erhalten und somit Bildung zuerlangen, was
+							jedem Menschen zustehen sollte.</p>
+						<a
+							href="https://www.gofundme.com/f/feeding-the-street-kids-of-accra-ghana">Jetzt
+							Spender werden</a>
+					</div>
+				</div>
+			</div>
+			<!-- The Modal Sudan -->
+
+			<button
+				onclick="document.getElementById('sud').style.display='block'"
+				class="w3-button w3-red w3-hover-black">Khartoum Omdurman</button>
+
+			<div id="sud" class="w3-modal">
+				<div class="w3-modal-content w3-text-black">
+					<div class="w3-container">
+						<span
+							onclick="document.getElementById('sud').style.display='none'"
+							class="w3-button w3-display-topright">&times;</span>
+						<h2>Schulbau in Sudan</h2>
+						<p>Dieses Hilfsprogramm unterstützt den Bau einer neuen Schule
+							in Khartoum (Sudan). Hierbei ist das Ziel ebenfalls mehr Bildung
+							zu ermöglichen. Für mehr Infortmationen einfach den Link unten
+							verwenden.</p>
+						<a
+							href="https://www.launchgood.com/campaign/education_for_underserved_girls_in_sudan#!/">Jetzt
+							Spender werden</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Kontakt Section -->
+		<div class="w3-padding-64 w3-content w3-text-white" id="contact">
+			<h2 class="w3-text-light-grey">
+				Kontakt <span class="w3-tag w3-red">New!</span>
+			</h2>
+			<hr style="width: 200px" class="w3-opacity">
+
+			<div class="w3-section">
+				<p>
+					<i
+						class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+					Emmendingen, DE
+				</p>
+				<p>
+					<i
+						class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
+					Phone: +491577/2494045
+				</p>
+				<p>
+					<i
+						class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
+					</i> Email: lukasxx95.s@gmail.com
+				</p>
+			</div>
+			<br>
+			<p>Bei Fragen könnt IHR mir gerne eine Nachricht schicken:</p>
+
+			<form name="Contact" data-netlify="true" method="post" enctype="text/plain"
+				onsubmit="thanks.html">
+				<p>
+					<input class="w3-input w3-padding-16" type="text"
+						placeholder="Name" required name="Name">
+				</p>
+				<p>
+					<input class="w3-input w3-padding-16" type="text"
+						placeholder="Email" required name="Email">
+				</p>
+				<p>
+					<input class="w3-input w3-padding-16" type="text"
+						placeholder="Subject" required name="Subject">
+				</p>
+				<p>
+					<input class="w3-input w3-padding-16" type="text"
+						placeholder="Message" required name="Message">
+				</p>
+				<p>
+					<button class="w3-button w3-light-grey w3-padding-large"
+						type="submit">
+						<i class="fa fa-paper-plane"></i> SEND MESSAGE
+					</button>
+				</p>
+			</form>
+			<!-- End Contact Section -->
+		</div>
+		<!-- Kommentare -->
+		<div class="w3-padding-64 w3-content w3-text-white">
+
+			<h3 class="w3-padding-24 w3-text-light-grey">Kommentare</h3>
+			<img src="./w3images/img_avatar.png" alt="Avatar"
+				class="w3-left w3-circle w3-margin-right" style="width: 80px">
+			<p>
+				<span class="w3-large w3-margin-right">Demar DeRozan</span> Small
+				Forward der Spurs
+			</p>
+			<p>Jonesxxl saved us from a disaster.</p>
+			<br> <img src="./w3images/img_avatar2.png" alt="Avatar"
+				class="w3-left w3-circle w3-margin-right" style="width: 80px">
+			<p>
+				<span class="w3-large w3-margin-right">Ronya Flex</span> Homie von
+				Lil Klene
+			</p>
+			<p>No one is better than Jonesxxl.</p>
+			<br> <img src="./w3images/img_avatar.png" alt="Avatar"
+				class="w3-left w3-circle w3-margin-right" style="width: 80px">
+			<p>
+				<span class="w3-large w3-margin-right">Andreas</span> I bims Andi
+			</p>
+			<p>Der Jonesxxl ist echt 'en netter Typ</p>
+
+			<!-- End About Section -->
+		</div>
+
+		<!-- Footer -->
+		<footer
+			class="w3-content w3-padding-64 w3-text-grey w3-xxlarge w3-center">
+
+			<a href="https://www.instagram.com/jonesxxl" class="fa fa-instagram"></a>
+			<a href="https://www.facebook.com/lukas.schfr.1"
+				class="fa fa-facebook"></a> <a href="https://www.twitter.com/"
+				class="fa fa-twitter"></a> <a href="./impressum.html"
+				target="_blank">Impressum</a> <a href="./datenschutz.html"
+				target="_blank">Datenschutz</a>
+			<div>
+				<a id="ebsr5556uh" href="https://www.internetanbieter-experte.de"></a>
+				<script language="JavaScript"
+					src="https://www.besucherzaehler-kostenlos.de/js/counter.js.php?count=1&id=DbTgtCh2Te&start=0&design=1b"></script>
+			</div>
+
+			<!-- End footer -->
+		</footer>
+
+		<!-- END PAGE CONTENT -->
+	</div>
+
+</body>
+</html>
